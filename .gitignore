@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+
+# Raw and cleaned datasets
+data/raw/
+data/cleaned/
+
+# Generated notebook datasets
+notebooks/data/
+
+# Generated model files
+models/*.pkl
+models/*.joblib
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Antigravity / Gemini temporary files
+.gemini/
